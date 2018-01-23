@@ -174,23 +174,22 @@ elif n == 4:
 elif n == 5:
   cont5 += 1 
 print("")
-if(cont1<cont2):
-  resultado == cont2
-elif(cont1<cont3):
-  resultado == cont3
-elif(cont1<cont4):
-  resultado == cont4
-elif(cont1<cont5):
-  resultado == cont5
-else:
-  resultado == cont1
-if (resultado == cont1):
+resultado = cont1
+if (resultado < cont2):
+  resultado = cont2
+if (resultado < cont3):
+  resultado = cont3
+if (resultado < cont4):
+  resultado = cont4
+if (resultado < cont5):
+  resultado = cont5
+if (resultado = cont1):
   print("Os cursos da UFABC disponíveis, que mais se assemelham ao seu perfil são:"+'\n'+"Engenharia Ambiental e Urbana - BC&T"+'\n'+"Bacharelado em Ciências Biológicas - BC&T"+'\n'+"Bacharelado em Matemática - BC&T"+'\n'+"Licenciatura em Filosofia - BC&H"+'\n'+"Licenciatura em Ciências Biológicas - BC&T"+'\n'+"Licenciatura em Matemática - BC&T")
-elif (resultado == cont2):
+elif (resultado = cont2):
  print("Os cursos da UFABC disponíveis, que mais se assemelham ao seu perfil são:"+'\n'+"Engenharia Aeroespacial - BC&T"+'\n'+"Engenharia Biomédica - BC&T"+'\n'+"Engenharia de Energia - BC&T"+'\n'+"Engenharia de Instrumentação, Automação e Robótica - BC&T"+'\n'+"Bacharelado em Neurociência - BC&T"+'\n'+"Bacharelado em Relações Internacionais - BC&H")
-elif (resultado == cont3):
+elif (resultado = cont3):
   print("Os cursos da UFABC disponíveis, que mais se assemelham ao seu perfil são:"+'\n'+"Engenharia de Gestão - BC&T"+'\n'+"Engenharia de Informação - BC&T"+'\n'+"Engenharia de Instrumentação, Automação e Robótica - BC&T"+'\n'+"Bacharelado em Ciências da Computação - BC&T"+'\n'+"Bacharelado em Física - BC&T"+"Bacharelado em Quiímica - BC&T"+'\n'+"Licenciatura em Física - BC&T"+'\n'+"Licenciatura em Química - BC&T")
-elif (resultado == cont4):
+elif (resultado = cont4):
   print("Os cursos da UFABC disponíveis, que mais se assemelham ao seu perfil são:"+'\n'+"Engenharia de Gestão - BC&T"+'\n'+"Engenharia da Informação - BC&T"+'\n'+"Engenharia de Instrumentação, Automação e Robótica - BC&T"+'\n'+"Bacharelado em Ciências Econômicas - BC&H")
-elif (resultado == cont5):
+elif (resultado = cont5):
   print("Os cursos da UFABC disponíveis, que mais se assemelham ao seu perfil são:"+'\n'+"Bacharelado em Filosofia - BC&H"+'\n'+"Bacharelado em Planejamento Territorial - BC&H"+'\n'+"Bacharelado em Física - BC&T"+'\n'+"Bacharelado em Quimíca - BC&T")
