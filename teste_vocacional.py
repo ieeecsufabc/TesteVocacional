@@ -1,5 +1,9 @@
 
-cont1 = 0   cont2 = 0   cont3 = 0   cont4 = 0   cont5 = 0
+cont1 = 0  
+cont2 = 0   
+cont3 = 0   
+cont4 = 0   
+cont5 = 0
 print("Olá, seja bem-vindo ao teste vocacional desenvolvido pelo IEEE Computer Society UFABC")
 print('\n'+"Siga as instruções para realizar o teste:")
 print('\n'+"Existe 11 perguntas objetivas, selecione a que você mais se indentifica e aperte ENTER")
@@ -178,7 +182,7 @@ elif(cont1<cont4):
   resultado == cont4
 elif(cont1<cont5):
   resultado == cont5
-elif:
+else:
   resultado == cont1
 if (resultado == cont1):
   print("Os cursos da UFABC disponíveis, que mais se assemelham ao seu perfil são:"+'\n'+"Engenharia Ambiental e Urbana - BC&T"+'\n'+"Bacharelado em Ciências Biológicas - BC&T"+'\n'+"Bacharelado em Matemática - BC&T"+'\n'+"Licenciatura em Filosofia - BC&H"+'\n'+"Licenciatura em Ciências Biológicas - BC&T"+'\n'+"Licenciatura em Matemática - BC&T")
